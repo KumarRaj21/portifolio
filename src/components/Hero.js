@@ -8,7 +8,7 @@ const Hero = () => {
     <div id='home'>
             <div className='home-1'>
                 <h1>I'm Kumar Raja , Frontend Developer</h1>
-                <p>Hello I'm Kumar Raja Konna, and highly motivated and enthusiastic frontend developer specializing in web development. As a fresher in this field , I bring a fresh perspective, an eagerness to learn , and a strong foundation in programming concepts. Currently, I'm a final year student pursuing B.Tech in Robotics and Automation at Parul University. </p>
+                <p style={{color:"red"}}>Hello I'm Kumar Raja Konna, and highly motivated and enthusiastic frontend developer specializing in web development. As a fresher in this field , I bring a fresh perspective, an eagerness to learn , and a strong foundation in programming concepts. Currently, I'm a final year student pursuing B.Tech in Robotics and Automation at Parul University. </p>
                 <div className='home-1-1'>
                 <div className='home-1-1-in'>
                   <div className='fblogo1'>

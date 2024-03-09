@@ -2,7 +2,7 @@ import React from 'react'
 import { saveAs } from 'file-saver';
 const Navbar = () => {
     const download = () => {
-        const Path = './images/resume.pdf';
+        const Path = './resume.pdf';
         saveAs(Path, 'Kumar_Resume.pdf');
       };
     return (
