@@ -1,10 +1,6 @@
 import React from 'react'
-import { saveAs } from 'file-saver';
+import resume from './resume.pdf'
 const Navbar = () => {
-    const download = () => {
-        const Path = './resume.pdf';
-        saveAs(Path, 'Kumar_Resume.pdf');
-      };
     return (
         <div className='Navbar-container'>
             <div className='logo'>
@@ -21,7 +17,10 @@ const Navbar = () => {
             <a href='#projects'>Projects</a>
             <a href='#contact'>Contact</a>
             </div>
-            <div className='navbar-btn'><button onClick={download}>Resume</button></div>
+            <div className='navbar-btn'>
+                <a href={resume} download>
+                Resume
+                </a></div>
         </div>
     )
 }

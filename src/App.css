@@ -59,9 +59,10 @@
   justify-content: center;
   align-items: center;
 }
-.navbar-btn button{
+.navbar-btn a{
   height:38px;
   width:120px;
+  text-decoration: none;
   display: flex;
   justify-content: center;
   align-items: center;

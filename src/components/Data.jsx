@@ -41,7 +41,6 @@ export const skillsdata = [
     logo:reactlogo,
     lagunage:"React"
 },
-
 {
     logo:"https://static.vecteezy.com/system/resources/previews/012/697/298/original/3d-javascript-logo-design-free-png.png",
     lagunage:"JavaScript"
