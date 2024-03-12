@@ -689,9 +689,10 @@ font-size: 20px;
   .projects-body{
     gap:16px;
     padding: 13px;
+    width: 98%;
   }
   .projectbox {
-    min-height:700px;
+    min-height:630px;
     width: 100%;
     flex-direction: column;
   }
