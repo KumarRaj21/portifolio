@@ -211,7 +211,7 @@ font-family: 'Times New Roman', Times, serif;
   width:100%;
   display: flex;
   justify-content: center;
-  align-items: flex-end;;
+  align-items: center;
   font-size: 17px;
 }
 .education{
@@ -542,4 +542,189 @@ font-size: 20px;
 .fblogo img,.linkedinlogo img ,.githublogo img,.maillogo img{
   height:100%;
   width:100%;
+}
+.Menubar{
+  display: none;
+}
+/* @media  only screen and (max-width:1200px) {
+  html,body{
+   width:100%;
+   overflow-x: hidden;
+  }  
+} */
+@media only screen and (max-width:600px) and (min-width:300px){
+  html,body{
+    width:100%;
+    overflow-x: hidden;
+  }
+  .logo{
+    width:40%;
+    height: 90%;
+  }
+  .app-container{
+    min-height:100vh;
+    width:100%;
+  }
+  .Menubar{
+    height:40%;
+    width:10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Menubar img{
+    height: 100%;
+    width:100%;
+  }
+  .navlinks,.navbar-btn{
+    display: none;
+  }
+  .navbar-div{
+    height:8vh;
+    width: 90%;
+  }
+  #home{
+    flex-direction: column;
+    width:90%;
+  }
+  .home-1{
+    order:2;
+    height:45%;
+    width:100%;
+  }
+  .home-2{
+    order: 1;
+    height:55%;
+    width:100%;
+  }
+  .hero{
+    height:120vh;
+  }
+  #home{
+    height:100%;
+  }
+  .home-2 svg{
+    transform: scale(2.0);
+    margin-right: 100px;
+  }
+  .home-1 h1{
+    height:40%;
+    width:100%;
+    font-size: 40px;
+    margin-bottom: 5px;
+  }
+  .home-1 p{
+    height:50%;
+    width: 100%;
+    font-size: 14px;
+  }
+  .home-2 img{
+    height:100%;
+    width:100%;
+  }
+  .home-1-1{
+    height:10%;
+    width:100%;
+  }
+  #skills{
+    width:95%;
+    padding:7px;
+  }
+  .skilss-body {
+    gap:10px;
+    padding: 10px;
+  }
+  .box{
+    padding: 5px;
+    height:140px;
+    width:146px;
+    border-radius: 12px;
+  }
+  .boximgdiv{
+    width:90%;
+  }
+  .box h2{
+    font-size: 12px;
+  }
+  #education{
+    width:95%;
+    padding:10px;
+  }
+  .edu-card{
+    width:90%;
+  }
+  .aboutme{
+    height: 140vh;
+  }
+  #aboutme {
+    width:95%;
+    padding: 7px;
+    flex-direction: column;
+  }
+  .about-part1 {
+    height: 50%;
+    width:100%;
+  }
+  .about-part1 svg{
+    height: 100%;
+    width: 100%;
+  }
+  .about-part2{
+    height: 50%;
+    width: 100%;
+  }
+  .about-header {
+    height:10%;
+    width: 100%;
+    font-size: 40px;
+  }
+  .about-body{
+    height: 86%;
+    font-size: 13px;
+  }
+  #projects{
+    width: 93%;
+    padding: 8px;
+  }
+  .projects-body{
+    gap:16px;
+    padding: 13px;
+  }
+  .projectbox {
+    min-height:700px;
+    width: 100%;
+    flex-direction: column;
+  }
+  .projectbox-1 {
+    height: 55%;
+    width:100%;
+    border-radius: 20px;
+    order: 1;
+  }
+  .projectbox-2 {
+    height: 40%;
+    width:100%;
+    order: 2;
+  }
+  .contact{
+  margin-top: 16px;
+  height: 130vh;
+  }
+  #contact{
+    padding: 10px;
+    width: 90%;
+    flex-direction: column;
+  }
+  .contact-1{
+    height: 44%;
+    width:100%;
+    padding: 10px;
+  }
+  .contact-2{
+    width:100%;
+    height: 56%;
+  }
+  .contact-2-2 {
+    font-size: 19px;
+  }
 }
