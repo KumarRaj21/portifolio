@@ -86,5 +86,12 @@ export const projectsdata =[
     project_name:"Nike Landing Page(Vite And Tailwind Css)",
     project_des:"A single Page Apllication by using Tailwind Css and Vite annd also Worked with react- router-dom ,Fully responsive, Used Javascript, HTML, CSS and Vite JS",
     project_demo:"https://65acea9f0c77514c04244820--stunning-eclair-730f7b.netlify.app/"
+ },
+ {
+    id:"04",
+    project_img:img4,
+    project_name:"Star Wars Planets Directory (API Project)",
+    project_des:"A single Page Apllication by STAR WARS PLANETS API by React JS and With Pagination ",
+    project_demo:"https://65acea9f0c77514c04244820--stunning-eclair-730f7b.netlify.app/"
  }
 ]
