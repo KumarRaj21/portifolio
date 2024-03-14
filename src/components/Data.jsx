@@ -93,6 +93,6 @@ export const projectsdata =[
     project_img:img4,
     project_name:"Star Wars Planets Directory (API Project)",
     project_des:"A single Page Apllication by STAR WARS PLANETS API by React JS and With Pagination ",
-    project_demo:"https://kumarraj21.github.io/starwars_planets_directory/"
+    project_demo:"https://kumarraj21.github.io/starwars_planets_directory/" 
  } 
 ]
