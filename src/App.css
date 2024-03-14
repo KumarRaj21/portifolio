@@ -185,7 +185,6 @@ font-family: 'Times New Roman', Times, serif;
   flex-wrap: wrap;
   gap:20px;
   padding:16px;
-  /* border:2px solid black; */
 }
 .box{
   height:220px;
