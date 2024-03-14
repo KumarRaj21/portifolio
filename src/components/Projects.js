@@ -1,5 +1,6 @@
 import React from 'react'
 import { projectsdata } from './Data'
+import redirect from '../images/redirect.png'
 const Projects = () => {
   return (
     <div id='projects'>
@@ -18,14 +19,21 @@ const Projects = () => {
                 <h1>{item.id}</h1>
                 <div className='project_name'>{item.project_name}</div>
               <div className='project_des'>{item.project_des}</div>
-              <button><a href={item.project_demo}>demo</a></button>
+              <a href={item.project_demo}>
+                 <img src={redirect} alt="Project Demo" />
+               </a>
+
+
               </div></>):(
             <>
             <div className='projectbox-2'>
             <h1>{item.id}</h1>
             <div className='project_name'>{item.project_name}</div>
           <div className='project_des'>{item.project_des}</div>
-          <button><a href={item.project_demo}>demo</a></button>
+          <a href={item.project_demo}>
+            <img src={redirect} alt="Project Demo" />
+           </a>
+        
           </div>
  <div className='projectbox-1'>
  <img src={item.project_img} alt=''/>
