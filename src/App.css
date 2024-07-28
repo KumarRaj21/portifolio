@@ -143,21 +143,17 @@ font-family: 'Times New Roman', Times, serif;
 }
 .home-1-1-in{
   height:100%;
-  width:70%;
+  width:40%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.fblogo1,.twitterlogo,.messengerlogo,.maillogo1{
+.fblogo1,.messengerlogo,.maillogo1{
  height:100%;
  width:23%;
  display: flex;
  justify-content: center;
  align-items: center;
-}
-.fblogo1 img,.twitterlogo img,.messengerlogo img,.maillogo1 img{
-  height:100%;
-  width:100%;
 }
 .home-2{
   height:90%;
@@ -481,7 +477,9 @@ color:grey;
   border-radius: 8px;
   border: none;
   outline:none;
-  /* align-self: flex-start; */
+}
+.contact-1-2-btn:hover{
+  cursor: pointer;
 }
 .contact-1-1 form input{
   height:15%;
@@ -540,15 +538,6 @@ display: flex;
 justify-content: flex-start;
 align-items: center;
 font-size: 20px;
-}
-.contact-1-2 button{
- height:80%;
- width:30%;
- background-color: black;
- color: white;
- border-radius: 8px;
- border: none;
- outline:none;
 }
 .fblogo, .linkedinlogo,.githublogo,.maillogo{
   height: 80%;

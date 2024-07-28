@@ -1,6 +1,7 @@
 import React from 'react'
 import emailjs from '@emailjs/browser';
 import { useRef, useState } from 'react'
+import { toast } from 'react-toastify';
 const Contact = () => {
   const [data,setdata] = useState(
     {
@@ -30,35 +31,25 @@ const Contact = () => {
           console.log('FAILED...', error.text);
         },
       );
-      setdata({...data,[e.target.value]:''})
+      setdata({
+        subject:"",
+        email:"",
+        message:""
+      })
+      toast.success('Email Sent')
   };
   return (
     <div id='contact'>
       <div className='contact-1'>
         <div className='contact-1-1'>
           <form ref={form} onSubmit={sendEmail} >
-          <input type='text' placeholder='subject' name='subject' onChange={changeHandle} />
-          <input type='email' placeholder='email'  name='email'  onChange={changeHandle}/>
-<textarea placeholder='how can i help you'  name='message' onChange={changeHandle} ></textarea>
+          <input type='text' placeholder='subject' name='subject' value={data.subject} onChange={changeHandle} />
+          <input type='email' placeholder='email'  name='email' value={data.email}  onChange={changeHandle}/>
+<textarea placeholder='how can i help you'  name='message' value={data.message} onChange={changeHandle} ></textarea>
           <button className='contact-1-2-btn' >Get in Touch</button>
           </form>
           
         </div>
-        {/* <div className='contact-1-2'>
-          <button type='submit'>Get in Touch</button>
-          <div className='fblogo'>
-            <img src={fblogo1} alt=''/>
-          </div>
-          <div className='linkedinlogo'>
-            <img src={twitterlogo} alt=''/>
-          </div>
-          <div className='githublogo'>
-            <img src={messengerlogo} alt=''/>
-          </div>
-          <div className='maillogo'>
-            <img src={maillogo} alt=''/>
-          </div>
-        </div> */}
       </div>
       <div className='contact-2'>
         <div className='contact-2-1'>Lets Talk For Something Special</div>
