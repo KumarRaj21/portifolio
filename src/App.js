@@ -1,6 +1,7 @@
 import './App.css';
 import Navbar from './Navbar';
 import Aboutme from './components/Aboutme';
+import Chart from './components/Chart';
 import Contact from './components/Contact';
 import Education from './components/Education';
 import Hero from './components/Hero';
@@ -27,6 +28,7 @@ function App() {
     <section className='projects'>
       <Projects/>
     </section>
+    <Chart/>
     <section className='contact'>
       <Contact/>
     </section>
