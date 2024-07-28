@@ -1,4 +1,4 @@
-import img from '../images/Project1(Quick_Ui).png'
+import img from '../images/Quickui_.png'
 import img2 from '../images/Schooldata.png'
 import img4 from '../images/StarWars.png'
 import img3 from '../images/Nike_Project.png'
